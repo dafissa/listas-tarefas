@@ -21,3 +21,22 @@
     height: 44px;
     font-size: 22px;
 }
+
+.delete-button {
+    background-color: crimson;
+    border-color: rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.edit-button {
+    background-color: cornflowerblue;
+    border-color: rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
