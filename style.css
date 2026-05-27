@@ -1,42 +1,43 @@
-.container {
+.container{
     width: 700px;
-    border: solid 1px black;
+    border: solid 1px #000;
     margin: auto;
     margin-top: 150px;
     padding: 20px;
+    border-radius: 25px;
 }
 
-.inserir-tarefa {
+.inserir-tarefa{
     display: flex;
-    gap: 16px;
     width: 640px;
+    gap: 16px;
 }
 
-.inserir-tarefa input {
+.inserir-tarefa input{
     flex: 4;
+    height: 40px;
 }
 
-.inserir-tarefa button {
+.inserir-tarefa button{
     flex: 1;
     height: 44px;
     font-size: 22px;
 }
 
-.delete-button {
-    background-color: crimson;
-    border-color: rgb(0, 0, 0, 0.2);
-    border-radius: 4px;
-    padding: 5px;
+.delete{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
 }
 
-.edit-button {
-    background-color: cornflowerblue;
-    border-color: rgb(0, 0, 0, 0.2);
-    border-radius: 4px;
-    padding: 5px;
+.edit{
+    background-color: #00ff00;
+    color: #fff;
+    border: none;
 }
 
-.buttons {
+.tarefa{
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
