@@ -2,6 +2,7 @@ const input = document.getElementById('input')
 const button = document.getElementById('add')
 const display = document.getElementById('display')
 
+
 function salvarLista(){
 
     let lista = []
